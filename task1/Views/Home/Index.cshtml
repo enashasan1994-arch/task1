@@ -1,0 +1,44 @@
+﻿<h1 class =" r1">Registration Page </h1>
+<br />
+<form>
+    <input type="text" class="r2" placeholder="Enter Your Email" />
+ <br/>
+    <input type="text" class=" r3" placeholder="First Name" />
+    <br />
+    <input type="text"  class="r4" placeholder="last Name" />
+    <br />
+    <input type="password"  class="pass" placeholder="Enter a strong Password" />
+    <br />
+     <label class ="r5">City</label>
+    <select>
+        <option>Amman</option>
+        <option>Jarash</option>
+        <option>Madaba</option>
+    </select>
+    <br />
+     <label class="r6">Gender</label>
+    Male<input type="radio" name="a1"/>
+    Female <input type="radio" name="a1" />
+    <br />
+    <br />
+    <label>Study Level</label> 
+    BA<input type="checkbox"/>
+    Master<input type="checkbox" />
+    PhD <input type="checkbox" />
+    <br/>
+    <input type="button" onclick="fun1()" value="Save" />
+    <h2>JavaScript Alert</h2>
+    <br/>
+    <button onmouseover="fun2()">Try it</button>
+</form>
+
+<script>
+function fun1() {
+  document.body.style.backgroundColor = "blue";
+}
+
+function fun2() {
+  alert("I am an alert box!");
+}
+
+</script>
